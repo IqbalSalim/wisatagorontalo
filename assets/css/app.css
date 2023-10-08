@@ -24,6 +24,7 @@ body {
   padding: 0px 20px;
   position: absolute;
   width: 100%;
+  /* position: sticky; */
 }
 
 .nav-list {
@@ -71,10 +72,18 @@ body {
   object-position: top;
 }
 
-.background img {
-}
+/* .background img {
+} */
 
 .img-content {
   background: rgba(0, 0, 0, 0.5);
   height: 100vh;
+  padding-top: 20%;
+  border: 1px solid red;
+  color: white;
+  text-align: center;
+}
+
+.btn-primary {
+  font-weight: 500;
 }
