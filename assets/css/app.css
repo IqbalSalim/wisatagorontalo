@@ -65,7 +65,7 @@ body {
 }
 
 .background {
-  background-image: url("/assets/images/pulocinta2.jpg");
+  background-image: url("../images/pulocinta2.jpg");
   background-size: cover;
   width: 100%;
   object-fit: cover;
@@ -79,11 +79,49 @@ body {
   background: rgba(0, 0, 0, 0.5);
   height: 100vh;
   padding-top: 20%;
-  border: 1px solid red;
   color: white;
   text-align: center;
 }
 
 .btn-primary {
-  font-weight: 500;
+  font-weight: 700;
+  font-size: large;
+  color: white;
+  background-color: #64ccc5;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  color: #64ccc5;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+
+  padding: 20px;
+  margin-top: 20px;
+}
+
+article img {
+  object-fit: cover;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  flex-flow: row;
+  gap: 20px;
+}
+
+#content {
+  flex: 75%;
+}
+
+aside {
+  flex: 25%;
+  text-align: center;
 }
